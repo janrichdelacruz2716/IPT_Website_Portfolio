@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+     background-image: url("SOLO.png");
+     background-position: fixed;	 
+	
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px; 
+    border: 3px solid red;
+	background-image: url("sisterleveling.jpg");
+	
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #c0e0ff;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #c0e0ff;
+    padding: 15px;
+    border-radius: 10px;
+	justify-content: center;
+    align-items: center;  
+    height: 100%;      
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content {
+    width: 75%;
+    background-color: #c0e0ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #c0e0ff;
+    border-radius: 10px;
+}
